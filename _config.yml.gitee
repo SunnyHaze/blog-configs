@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://sunnyhaze.github.io/blog
-root: '/'    #    '/blog/'
+root: '/blog/'
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -109,7 +109,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository : git@github.com:SunnyHaze/blog.git
+  repository : git@gitee.com:SunnyHaze/blog.git
   branch: gh-pages
 
 # ------新增项目-------
